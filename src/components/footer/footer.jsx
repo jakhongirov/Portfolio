@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import content from '../../localization/content'
 
 import Instagram from '../../assets/images/instagram.svg'
 import Telegram from '../../assets/images/telegram.svg'
