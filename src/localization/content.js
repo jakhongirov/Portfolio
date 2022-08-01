@@ -23,7 +23,12 @@ const content = {
         services: {
             title: "BIZNING -",
             heading: "Xizmatlarimiz"
-        }
+        },
+
+        partners: {
+            title: "Hamkorlar - ",
+            heading: "Bizga ishonadigan kompaniyalar"
+        },
     },
 
     RU: {
@@ -46,11 +51,15 @@ const content = {
             completed: "Завершенные проекты"
         },
 
-
         services: {
             title: "НАШИ",
             heading: "услуги"
-        }
+        },
+
+        partners: {
+            title: "Партнеры",
+            heading: "Компании, которые нам доверяют"
+        },
     }
 }
 
