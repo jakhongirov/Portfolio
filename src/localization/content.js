@@ -29,6 +29,10 @@ const content = {
             title: "Hamkorlar - ",
             heading: "Bizga ishonadigan kompaniyalar"
         },
+
+        team: {
+            heading: 'Bizning jamoa'
+        }
     },
 
     RU: {
@@ -60,6 +64,11 @@ const content = {
             title: "Партнеры",
             heading: "Компании, которые нам доверяют"
         },
+
+        
+        team: {
+            heading: 'Наша команда'
+        }
     }
 }
 

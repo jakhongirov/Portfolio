@@ -5,6 +5,7 @@ import Company from './components/company/company';
 import Statistics from './components/statistics/statistics';
 import Services from './components/services/services';
 import Partners from './components/partners/partners';
+import Team from './components/team/team';
 
 function App() {
   const [lang, setLang] = useState(JSON.parse(window.localStorage.getItem('lang')) || 'UZ')
@@ -16,6 +17,7 @@ function App() {
         <Statistics lang={lang} />
         <Services lang={lang} />
         <Partners lang={lang} />
+        <Team lang={lang} />
       </Layout>
     </>
   );
