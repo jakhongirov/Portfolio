@@ -1,0 +1,78 @@
+.services {
+    margin-bottom: 50px;
+
+    .services__heading__title {
+        margin: 0;
+        margin-bottom: 5px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #37474f;
+    }
+
+    .services__heading-box{
+        margin-bottom: 40px;
+    }
+
+    .services__heading {
+        margin: 0;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #191c2f;
+    }
+
+    .services__list {
+        display: flex;
+        width: 100%;
+        max-width: 1400px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .services__item {
+            display: block;
+            max-width: 430px;
+            padding: 25px;
+            margin-bottom: 20px;
+            background: rgba(35, 4, 157, 0.03);
+            border-radius: 10px;
+
+            &:hover {
+                background: rgba(35, 4, 157, 0.03);
+                border: 1px solid #feab38;
+                border-radius: 10px;
+            }
+        }
+
+        .services__item__image {
+            display: block;
+            width: 100%;
+            max-width: 80px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+
+        .services__item__title {
+            display: block;
+            margin: 0;
+            margin-bottom: 8px;
+            font-family: "Gilroy";
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+            color: #191c2f;
+        }
+
+        .services__item__info {
+            font-family: "Gilroy";
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #191c2f;
+        }
+    }
+}

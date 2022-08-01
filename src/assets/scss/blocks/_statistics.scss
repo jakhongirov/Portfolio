@@ -1,0 +1,33 @@
+.statistics {
+    margin-bottom: 110px;
+
+    .statistics__list {
+        display: flex;
+        max-width: 1400px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        .statistics__count {
+            margin: 0;
+            margin-bottom: 10px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 78px;
+            line-height: 97px;
+            color: #191c2f;
+            align-items: center !important;
+        }
+
+        .statistics__title {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #191c2f;
+        }
+    }
+}

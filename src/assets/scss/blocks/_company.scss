@@ -1,0 +1,86 @@
+.company {
+    padding: 600px 0;
+    padding-bottom: 350px;
+    background-image: url("../../images/intro.png");
+    background-repeat: no-repeat;
+    background-position: 30px 0% !important;
+    background-size: 100%;
+
+    .container {
+        margin-top: -290px;
+
+        .company__heading {
+            display: block;
+            max-width: 550px;
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 0;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 74px;
+            color: #ffffff;
+        }
+
+        .company__title {
+            margin: 0;
+            margin-bottom: 65px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 17px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .company__btn_box {
+            display: flex;
+            width: 100%;
+            max-width: 550px;
+            justify-content: space-between;
+
+            .port_btn {
+                padding: 15px;
+                padding-right: 55px;
+                background: #dfbb7f;
+                border-radius: 8px;
+                border: none;
+                background-image: url("../../images/port-icon.svg");
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: 155px 21px;
+
+                .port_link {
+                    font-family: "Gilroy";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+
+            .phone_btn {
+                padding: 12px 18px;
+                padding-right: 55px;
+                border: 1px solid #ffffff;
+                border-radius: 8px;
+                background: transparent;
+                background-image: url("../../images/phone-icon.svg");
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: 110px 21px;
+
+                a {
+                    font-family: "Gilroy";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
