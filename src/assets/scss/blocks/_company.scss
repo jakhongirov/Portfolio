@@ -3,11 +3,11 @@
     padding-bottom: 350px;
     background-image: url("../../images/intro.png");
     background-repeat: no-repeat;
-    background-position: 30px 0% !important;
-    background-size: 100%;
+    background-position: 60px;
+    background-size: cover;
 
     .container {
-        margin-top: -290px;
+        margin-top: -300px;
 
         .company__heading {
             display: block;
@@ -82,5 +82,42 @@
                 }
             }
         }
+    }
+}
+
+@include media-max(1660px) {
+    .company {
+        padding: 460px 0;
+        padding-bottom: 380px;
+    }
+}
+
+@include media-max(1600px) {
+    .company {
+        padding: 420px 0;
+        padding-bottom: 358px;
+        background-position: 20px;
+    }
+}
+
+@include media-max(1495px) {
+    .company {
+        padding: 427px 0;
+        padding-bottom: 316px;
+        background-position: 14px;
+    }
+}
+
+@include media-max(1460px) {
+    .company {
+        .container {
+            padding-left: 95px;
+        }
+    }
+}
+
+@include media-max(1365px) {
+    .company .container {
+        padding-left: 55px;
     }
 }

@@ -244,3 +244,10 @@
         }
     }
 }
+
+
+@include media-max(1660px) {
+    .header{
+        margin-bottom: 20px;
+    }
+}
