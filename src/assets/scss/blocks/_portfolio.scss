@@ -1,0 +1,107 @@
+.portfolio {
+    margin-bottom: 150px;
+
+    .portfolio__top-box {
+        display: flex;
+        width: 100%;
+        max-width: 1400px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .services__heading__title {
+        margin: 0;
+        margin-bottom: 5px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #37474f;
+    }
+
+    .services__heading {
+        margin: 0;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #191c2f;
+    }
+
+    .portfolio__type-list {
+        display: flex;
+        width: 100%;
+        max-width: 880px;
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    .portfolio__type-item {
+        width: 100%;
+        max-width: 175px;
+    }
+
+    .portfolio__type-btn {
+        display: block;
+        padding: 10px 8px;
+        border: 1px solid #191c2f;
+        border-radius: 10px;
+        background: transparent;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #191c2f;
+    }
+
+    .portfolio__list-box {
+        display: flex;
+        width: 100%;
+        max-width: 1400px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+
+    .portfolio__single-image {
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .portfolio__list {
+        display: flex;
+        width: 100%;
+        max-width: 655px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .portfolio__list-img {
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .port_btn {
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        padding-right: 80px;
+        background: #dfbb7f;
+        border-radius: 8px;
+        border: none;
+        background-image: url("../../images/port-icon.svg");
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: 120px 16px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        color: #ffffff;
+    }
+}

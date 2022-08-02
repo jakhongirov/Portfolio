@@ -10,7 +10,7 @@ function Team({ lang }) {
                     <li className='team__item'>
                         <img className='team__image'
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
-                            alt="person's image"
+                            alt="person's avatar"
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>
@@ -19,7 +19,7 @@ function Team({ lang }) {
                     <li className='team__item'>
                         <img className='team__image'
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
-                            alt="person's image"
+                            alt="person's avatar"
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>
@@ -28,7 +28,7 @@ function Team({ lang }) {
                     <li className='team__item'>
                         <img className='team__image'
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
-                            alt="person's image"
+                            alt="person's avatar"
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>
@@ -37,7 +37,7 @@ function Team({ lang }) {
                     <li className='team__item'>
                         <img className='team__image'
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emblem-person-blue.svg/2048px-Emblem-person-blue.svg.png"
-                            alt="person's image"
+                            alt="person's avatar"
                             width={210}
                             height={190} />
                         <h3 className='team__item__title'>Мироншох Насимов</h3>

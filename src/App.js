@@ -4,6 +4,7 @@ import Layout from './components/layout/layout';
 import Company from './components/company/company';
 import Statistics from './components/statistics/statistics';
 import Services from './components/services/services';
+import Portfolio from './components/portfolio/portfolio';
 import Partners from './components/partners/partners';
 import Team from './components/team/team';
 
@@ -16,6 +17,7 @@ function App() {
         <Company lang={lang} />
         <Statistics lang={lang} />
         <Services lang={lang} />
+        <Portfolio lang={lang} />
         <Partners lang={lang} />
         <Team lang={lang} />
       </Layout>

@@ -32,7 +32,14 @@ const content = {
 
         team: {
             heading: 'Bizning jamoa'
-        }
+        },
+
+        portfolio: {
+            title: "BIZNING -",
+            heading: "Portfolio",
+            button: "Barchasi"
+        },
+
     },
 
     RU: {
@@ -65,10 +72,16 @@ const content = {
             heading: "Компании, которые нам доверяют"
         },
 
-        
+
         team: {
             heading: 'Наша команда'
-        }
+        },
+
+        portfolio: {
+            title: "НАШ",
+            heading: "портфолио",
+            button: "Все"
+        },
     }
 }
 
