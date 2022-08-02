@@ -1,0 +1,174 @@
+.contact {
+    margin-bottom: 150px;
+
+    .contact__title {
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #263238;
+    }
+
+    .contact__heading {
+        display: block;
+        margin: 0;
+        margin-bottom: 30px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+        color: #263238;
+    }
+
+    form {
+        display: block;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .contacts__input-box {
+        display: flex;
+        width: 100%;
+        max-width: 800px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .contacts__input-name {
+        display: block;
+        width: 1000%;
+        max-width: 370px;
+        padding: 15px;
+        background: #f8f8f8;
+        border: 1px solid #ebebeb;
+        box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.05), inset 4px 4px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(58, 58, 58, 0.4);
+    }
+
+    .contacts__input-phone {
+        display: block;
+        padding: 15px;
+        width: 1000%;
+        max-width: 370px;
+        margin-left: 10px;
+        background: #f8f8f8;
+        border: 1px solid #ebebeb;
+        box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.05), inset 4px 4px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(58, 58, 58, 0.4);
+    }
+
+    .contacts__input-name__label {
+        display: block;
+        margin: 0;
+        margin-bottom: 3px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #3a3a3a;
+    }
+
+    .contacts__input-phone__label {
+        display: block;
+        margin: 0;
+        margin-bottom: 3px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #3a3a3a;
+
+        span {
+            color: #feab38;
+        }
+    }
+
+    .contacts__input-message {
+        display: block;
+        padding: 15px;
+        background: #f8f8f8;
+        border: 1px solid #ebebeb;
+        box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.05), inset 4px 4px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(58, 58, 58, 0.4);
+    }
+
+    .contacts__input-message__label {
+        display: block;
+        margin: 0;
+        margin-bottom: 3px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #3a3a3a;
+    }
+
+    .contacts__input-message__label-box {
+        display: block;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .contacts__btn {
+        display: block;
+        margin: 0;
+        margin-left: auto;
+        padding: 15px 50px;
+        background: #dfbb7f;
+        border-radius: 10px;
+        border: none;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    @include media-max(860px){
+        .contacts__input-message{
+            width: 100%;
+            max-width: 800px;
+        }
+    }
+
+    @include media-max(549px){
+        .contacts__input-name{
+            margin-bottom: 15px;
+        }
+    }
+}

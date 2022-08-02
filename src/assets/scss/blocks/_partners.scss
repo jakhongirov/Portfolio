@@ -1,14 +1,35 @@
-.partners{
+.partners {
     margin-bottom: 110px;
 
-    .partners__list{
+    .services__heading {
+        margin: 0;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #191c2f;
+    }
+
+    .services__heading__title {
+        margin: 0;
+        margin-bottom: 5px;
+        font-family: "Gilroy", serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #37474f;
+    }
+    
+    .partners__list {
         display: flex;
         width: 100%;
         max-width: 1400px;
         flex-wrap: wrap;
     }
 
-    .partners__item{
+    .partners__item {
         display: block;
         padding: 40px 60px;
     }

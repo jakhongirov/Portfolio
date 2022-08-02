@@ -7,11 +7,15 @@
         justify-content: space-between;
         flex-wrap: wrap;
 
+        li{
+            padding: 15px;
+        }
+
 
         .statistics__count {
             margin: 0;
             margin-bottom: 10px;
-            font-family: "Gilroy";
+            font-family: "Gilroy", serif;
             font-style: normal;
             font-weight: 700;
             font-size: 78px;
@@ -21,7 +25,7 @@
         }
 
         .statistics__title {
-            font-family: "Gilroy";
+            font-family: "Gilroy", serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
